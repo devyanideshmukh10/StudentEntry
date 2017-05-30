@@ -6,8 +6,13 @@ var rIndex,table = document.getElementById("tab");
 
 function add() {
     //table = document.getElementById("tab");
-var flag = validate(first, last, dob);
-alert(flag);
+
+    first = document.getElementById("firstName").value,
+        last = document.getElementById("lastName").value,
+        dob = document.getElementById("dob").value;
+
+    var flag = validate(first, last, dob);
+//alert(flag);
 
     if (flag === true) {
 
@@ -29,7 +34,7 @@ alert(flag);
         //clear();
 
 
-        document.getElementById("feedback").innerHTML = "Your for m has been submitted successfully!";
+        document.getElementById("feedback").innerHTML = "Your form has been submitted successfully!";
     }
 
     else {
