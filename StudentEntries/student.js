@@ -31,7 +31,7 @@ function add() {
         cell3.innerHTML = dob;
         selectRow();
         //validate(first,last,dob);
-        //clear();
+        clear();
 
 
         document.getElementById("feedback").innerHTML = "Your form has been submitted successfully!";
@@ -94,12 +94,12 @@ function edit(){
 
 }
 
-// function clear() {
-//      // alert("hii");
-//               document.getElementById("firstName").value = " ";
-//          document.getElementById("lastName").value = " ";
-//             document.getElementById("dob").value = " ";
-//
-//
-//                 }
-//
+function clear() {
+      
+              document.getElementById("firstName").value = " ";
+         document.getElementById("lastName").value = " ";
+            document.getElementById("dob").value = " ";
+
+
+                }
+
