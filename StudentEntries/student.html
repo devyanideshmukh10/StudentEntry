@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>student application</title>
+    <link rel="stylesheet" href="student.css">
+
+
+
+</head>
+<body>
+
+<div>
+    <h1>
+        <center>  WELCOME TO DESHMUKH SCHOOL </center> <br>
+        <marquee direction = "left"  behaviour="alternate">
+
+        Student Information
+        </marquee>
+    </h1>
+</div>
+
+
+<div id="background">
+
+<div id="image">
+    <img src="school-1.gif" width="350" height="300">
+
+</div>
+
+
+
+
+<div id="info1">
+<h2 id="click"> Click below to add/edit student entries</h2>
+
+    <table id="tab" border="1">
+        <tr>
+            <th>
+                First name
+            </th>
+
+            <th>
+                Last name
+            </th>
+
+            <th>
+                DateOfBirth
+            </th>
+        </tr>
+        <tr>
+            <td> Devyani</td>
+            <td> Deshmukh </td>
+            <td>08/10/1989</td>
+        </tr>
+
+        <tr>
+            <td> Mrugen</td>
+            <td> Deshmukh </td>
+            <td> 12/10/1988  </td>
+        </tr>
+
+        <tr>
+            <td> Sanket</td>
+            <td> Selokar</td>
+            <td> 04/16/1992</td>
+
+        </tr>
+
+        <tr>
+            <td> Grevil </td>
+            <td> Lopes </td>
+            <td> 11/24/1992</td>
+
+        </tr>
+
+        <tr>
+            <td> Revathi</td>
+            <td> Reddy</td>
+            <td> 06/01/1995</td>
+
+
+        </tr>
+
+
+
+    </table>
+
+
+
+
+<br>
+
+
+        <input type="button" value="new" id="new" size="35" onclick="showtable()"/>
+
+
+        <input type="button" value="edit" id="edit" size="35" onclick="edit()"/>
+
+
+
+
+</div>
+<!------------------------------------------------------------------------------------------------------------->
+
+<div id="information">
+    <table>
+        <tr>
+            <td>
+                First Name:
+            </td>
+
+            <td>
+                <input type="text"  placeholder="firstName" id="firstName" required />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Last Name:
+
+            </td>
+            <td>
+                <input type="text" placeholder="lastName" id="lastName" required/>
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                Date Of Birth:
+            </td>
+            <td>
+                <input type="text" placeholder="MM/DD/YYYY" id="dob" required />
+            </td>
+        </tr>
+        <tr>
+
+            <td>
+                <center>
+                <input type="submit" value="submit" id="submit" onclick="add()"/>
+                </center>
+            </td>
+        </tr>
+
+    </table>
+
+<div id="feedback">
+
+</div>
+
+
+</div>
+
+</div>
+
+
+<script type="text/javascript" src="student.js"></script>
+
+</body>
+</html>

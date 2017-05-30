@@ -1,0 +1,102 @@
+
+#background{
+
+    background-color:blanchedalmond;
+    background-repeat: no-repeat;
+    position:fixed;
+    min-width:100%;
+    min-height:100%
+}
+
+#information{
+    display:none;
+    position:absolute;
+    border-radius: 10px;
+    font-family: Georgia;
+    margin-right:800px;
+    margin-top:25px;
+    background-color: lightgrey;
+
+}
+
+
+#information #feedback{
+    color:firebrick;
+    align-self:center;
+
+}
+
+#submit{
+    background-color:darkred;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+
+}
+
+tr{
+    transition:all .25s ease-in-out;
+}
+
+
+tr:hover{
+
+    background-color: darkmagenta;
+    background-color: goldenrod;
+    cursor:pointer;
+}
+
+#tab tr:nth-child(even) {background: lightcoral}
+ #tab tr:nth-child(odd) {background: lightsalmon}
+h1{
+    color : darkblue;;
+    background-color: aliceblue;
+
+    align:center;
+
+}
+#image{
+ float:right;
+}
+
+#tab{
+    border-color:crimson;
+    background-color: bisque;
+
+}
+
+#click{
+    color:darkmagenta;
+}
+#new{
+
+    background-color:darkred;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+
+#edit{
+
+    background-color:darkred;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+
+
